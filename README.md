@@ -1,5 +1,12 @@
-#
-Når koden er hentet, så husk at kør 'npm install'. Så installere den selv ESLint og Typescript, så det hele virker.
+# Når koden er hentet, så husk at kør 'npm install'. Så installere den selv ESLint og Typescript, så det hele virker.
+
+
+
+
+
+
+
+
 
 
 
