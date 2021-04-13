@@ -1,24 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Eksempel01 from './Eksempel01VisVariable'
+import Eksempel02 from './Eksempel02KaldUseState'
 
-function App() {
+function App(): React.ReactElement {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <h1>Eksempel 1</h1>
+      <Eksempel01/>
+      <h1>Eksempel 2</h1>
+      <Eksempel02/>  
     </div>
   );
 }
