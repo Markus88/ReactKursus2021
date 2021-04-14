@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Eksempel02KaldUseState(): React.ReactElement {
   // Declare a new state variable, which we'll call "count"
-  const [ost, osteCounter] = useState(22);
+  const [ost, osteCounter] = useState(22); // <-- Første indput, er en variable [ost, ], og andet input [, osteCounter] er en function.
 
   return (
     <div>
