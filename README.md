@@ -1,3 +1,15 @@
+# Når koden er hentet, så husk at kør 'npm install'. Så installere den selv ESLint og Typescript, så det hele virker.
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
