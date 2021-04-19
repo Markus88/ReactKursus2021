@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Eksempel02KaldUseState(): React.ReactElement {
   // Declare a new state variable, which we'll call "count"
@@ -7,10 +7,8 @@ function Eksempel02KaldUseState(): React.ReactElement {
   return (
     <div>
       <p>You clicked {ost} times</p>
-      {<button onClick={() => osteCounter(ost + 1)}>
-        Click me
-      </button>}
+      {<button onClick={() => osteCounter(ost + 1)}>Click me</button>}
     </div>
   );
 }
-export default(Eksempel02KaldUseState);
+export default Eksempel02KaldUseState;

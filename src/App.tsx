@@ -1,22 +1,44 @@
-import './App.css';
-import Eksempel01 from './Eksempel01VisVariable'
-import Eksempel02 from './Eksempel02KaldUseState'
-import Chapter_1_1 from './Chapter_1_1'
-import Chapter_1_2 from './Chapter_1_2'
+import { ButtonHTMLAttributes } from "react";
+import "./App.css";
+import RandomExamples from "./RandomExamples";
 
-function App(): React.ReactElement {
+export default function (props: any) {
   return (
-    <div> 
-      <h1>Eksempel 1</h1>
-      <Eksempel01/>
-      <h1>Eksempel 2</h1>
-      <Eksempel02/>  
-      <h1>Chaper_1_1</h1>
-      <Chapter_1_1/>  
-      <h1>Chaper_1_2</h1>
-      <Chapter_1_2/>  
-    </div>
+    <>
+      Main view{" "}
+      <button value={1} onClick={() => RandomExamples()}>
+        View 1
+      </button>{" "}
+      <button value={2} onClick={props.clickBtn}>
+        View 2
+      </button>{" "}
+    </>
   );
 }
 
-export default App;
+// function App(): React.ReactElement {
+//   return (
+//     <div>
+//       <h1>Kursus kode</h1>
+//       <h2>Opgave 1</h2>
+//       <h1>Random eksempler</h1>
+//       <h2>Eksempel 1</h2>
+//       <Eksempel01 />
+//       <h2>Eksempel 2</h2>
+//       <Eksempel02 />
+//       <h2>Chaper_1_1</h2>
+//       <Chapter_1_1 />
+//       <h2>Chaper_1_2</h2>
+//       <Chapter_1_2 />
+
+//       <h1>Basic Hooks</h1>
+//       <h2>UseState</h2>
+//       <UseStateExample />
+//       <h2>UseEffect</h2>
+//       <UseEffectExample />
+//       <h2>UseContext</h2>
+//     </div>
+//   );
+// }
+
+// export default App;
